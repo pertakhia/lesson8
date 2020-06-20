@@ -5,15 +5,35 @@
    justify-content: space-between;
 }
 .right {
-    max-width: 635px;
+    max-width: 650px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
 }
+.box-1{
+    display: flex;
+    max-width: 650px;
+    width: 100%;
+}
+.bar {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    display: none;
+}
+.bar-nav {
+    font-size: 28px;
+    cursor: pointer;
+}
+.bar-nav:hover {
+    color: green;
+}
+.active {
+    display: block;
+}
 header {
-    position: -webkit- sticky;
     position: sticky;
     top: 0;
     left: 0;
@@ -37,6 +57,7 @@ header {
 }
 .bg {
     color: #707070;
+    font-size: 25px;
 }
 
 /* start section1 */
@@ -47,6 +68,14 @@ header {
     height: 600px;
     position: relative;
     
+}
+.max-height-property1 {
+    display: none;
+}
+
+.platporm {
+    display: flex;
+    justify-items: center;
 }
 .right-box{
     position: absolute;
@@ -62,6 +91,10 @@ header {
     width: 320px;
     font-size: 35px;
     font-family: 'ArchyEDT-Thin';
+}
+.max-height-property1 {
+    font-family: 'ArchyEDT-Thin';
+    font-size: 30px;
 }
 .paragrap {
     font-family: 'Pierre Dingbats';
@@ -97,7 +130,7 @@ h1{
     /* border:1px solid; */
     max-width: 350px;
     width: 100%;
-    box-shadow: 3px 0px 6px #000000;
+    box-shadow: 0px 3px 6px #000000;
 }
 .image-visual {
     width: 100%;
@@ -169,6 +202,27 @@ address{
     font-size: 13px;
     font-family: 'ArchyEDT-Thin';
 }
+.contact1 {
+   
+    margin-bottom: 20px;
+}
+.contact1 h2 {
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: 'ArchyEDT-Thin';
+    line-height:1.2;
+}
+.contact1 p{
+    font-size: 13px;
+    font-family: 'ArchyEDT-Thin';
+    color: #F2F2F2;
+
+}
+.misamarti1 h2{
+    font-family: 'ArchyEDT-Thin';
+    font-size: 19px;
+    color: #F2F2F2;
+}
 
 .logo1{
     font-size: 90px;
@@ -206,7 +260,41 @@ address{
     display: flex;
     
 }
+.icon21 {
+    display: flex;
+    
+}
 .logo-inst {
     font-size: 30px;
     color: #707070;
+}
+.responsive-footer {
+    display: none;
+}
+.responsive-footer1 {
+    display: none;
+}
+.icon21 {
+    display: none;
+}
+.contact2 h2 {
+    color: #F2F2F2;
+    font-size: 20px;
+    font-family: 'ArchyEDT-Thin';
+    line-height:1.2;
+}
+.contact2 p{
+    font-size: 13px;
+    font-family: 'ArchyEDT-Thin';
+    color: #F2F2F2;
+
+}
+.misamarti2 h2{
+    font-family: 'ArchyEDT-Thin';
+    font-size: 19px;
+    color: #F2F2F2;
+}
+.icon22 {
+    display: flex;
+    
 }
